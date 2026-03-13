@@ -1,0 +1,328 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.logo {
+
+    width: 200px;
+    padding-left: 130px;
+    padding-top: 5px;
+}
+
+.navbar {
+    margin-left: 400px;
+}
+
+
+.icons {
+    margin-left: 300px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* header end */
+
+/* layer 3 start */
+.container {
+    width: 100%;
+     display: flex;
+     margin-top: 30px;
+
+}
+
+.card-top {
+     width: 50%;
+}
+
+.card-item {
+    position: relative;
+    height: 90vh;
+}
+
+.card-item img {
+    position: absolute;
+    width: 100%;
+}
+
+.card-item1 img {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-left: 15px;
+
+}
+
+/* card-top close */
+
+
+
+
+.card-right {
+    width: 50%;
+    height: 100vh;
+    margin-left: 60px;
+}
+
+.colors {
+    display: flex
+}
+
+.color1 {
+    background-color: rgb(254, 254, 254);
+    width: 30px;
+    height: 30px;
+    border: 1.5px solid black;
+
+}
+
+.color2 {
+    margin-left: 20px;
+    background-color: rgba(198, 155, 123, 1);
+    width: 30px;
+    height: 30px;
+}
+
+.color3 {
+    margin-left: 20px;
+    background-color: rgba(204, 216, 206, 1);
+    width: 30px;
+    height: 30px;
+}
+
+.color4 {
+    margin-left: 20px;
+    background-color: rgba(180, 85, 93, 1);
+    width: 30px;
+    height: 30px;
+
+
+}
+
+.color5 {
+    margin-left: 20px;
+    background-color: rgba(155, 146, 161, 1);
+    width: 30px;
+    height: 30px;
+}
+
+/* container 3 close */
+
+/* button start */
+button {
+    width: 500px;
+    padding: 10px;
+    color: white;
+    background-color: rgba(58, 56, 69, 1);
+    border: none;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.buttons {
+    margin-top: 40px;
+}
+.buttons input{
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid black;
+
+}
+
+.button1 {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    border: 2PX solid rgb(0, 0, 0);
+
+}
+
+.button3 {
+    width: 60px;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 10px;
+   }
+   .button3 i{
+    font-size: 22px;
+   }
+
+
+/* button ends */
+
+
+
+/* icon starts */
+.input-group {
+    width: 20px;
+
+}
+
+.icon {
+    justify-content: left;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.icon-container {
+    display: flex;
+
+}
+
+.icon1 {
+    padding-top: 10px;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+}
+
+/* icon end */
+
+.details h5 {
+padding-bottom: 10px;
+border-bottom: 1px solid rgb(201, 201, 201) ;
+width: 200%;
+padding: 10px;
+
+}
+.details{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.details p{
+    padding: 10px;
+    text-align: end;
+}
+
+
+
+/* container 4 start */
+.container4 {
+
+    margin: 0 7%;
+    height: 100vh;
+    margin-top: 50px;
+   
+
+}
+
+.container4 h1 {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.container4 h2{
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+}
+
+.card-top1 {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+
+
+}
+
+.card-item2 {
+
+    display: grid;
+    width: 300px;
+    height: 90vh;
+}
+
+.card-item2 img {
+    height: 400px;
+    width: 300px
+}
+
+.card-item2 button {
+    border: 2px solid black;
+    margin-top: 60px;
+    width: 300px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.container4 h5 {
+    font-size: 18px;
+}
+/* container 4 close */
+
+
+/* Footer */
+footer {
+    padding: 50px;
+    height: 40vh;
+    background-color: rgba(58, 56, 69, 1);
+    width: 100%;
+    display: flex;
+    color: white;
+    margin-top: 40px;
+}
+
+.layers1 {
+    width: 500px;
+    padding: 30px;
+    padding-left: 100px;
+}
+.layers1 button {
+    width: 150px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(58, 56, 69, 1);
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.layers2 {
+    padding-left: 50px;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.layers2 h3 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.layers2 p {
+    font-weight: lighter;
+}
+
+.copyrights {
+    border: 1px solid white;
+    background-color: rgba(58, 56, 69, 1);
+    color: rgb(187, 187, 187);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+}
+/* footer end */

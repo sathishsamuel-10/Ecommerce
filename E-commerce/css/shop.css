@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.logo { 
+
+    width: 200px;
+    padding-left: 130px;
+    padding-top: 5px;
+}
+
+.navbar {
+    margin-left: 400px;
+}
+
+
+.icons {
+    margin-left: 300px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* header end */
+
+/* layer start */
+
+.layer1 {
+   margin: 0 7%;
+    display: flex;
+}
+.layer2{
+    padding-left: 20px;
+}
+.colors {
+    display: flex
+}
+
+.color1 {
+    background-color: rgb(254, 254, 254);
+    width: 30px;
+    height: 30px;
+    border: 1.5px solid black;
+
+}
+
+.color2 {
+    margin-left: 20px;
+    background-color: rgba(198, 155, 123, 1);
+    width: 30px;
+    height: 30px;
+}
+
+.color3 {
+    margin-left: 20px;
+    background-color: rgba(204, 216, 206, 1);
+    width: 30px;
+    height: 30px;
+}
+
+.color4 {
+    margin-left: 20px;
+    background-color: rgba(180, 85, 93, 1);
+    width: 30px;
+    height: 30px;
+}
+
+.color5 {
+    margin-left: 20px;
+    background-color: rgba(155, 146, 161, 1);
+    width: 30px;
+    height: 30px;
+}
+
+.check-box{
+    margin-top:30px;
+}
+.check-box label{
+    padding-top:10px;
+}
+.layer2{
+width: 20%;
+}
+
+/* layer 2 close */
+
+
+/* layer 3 start */
+.layer3{
+    margin-left: 70px;
+    padding-left: 20px ;
+}
+
+.card-top {
+display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.card-item {
+display: grid;
+    width: 300px;
+    height: 90vh;
+}
+.card-item a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.card-item img {
+    height: 400px;
+    width: 300px
+}
+
+.card-item button {
+    border: 2px solid black;
+   width: 300px;
+background-color: white;
+    color: black;
+    font-weight: bold;
+    transition: 0.1s;
+}
+a button{
+    margin-top:40px;
+    padding: 10px;
+}
+
+.card-item button:hover{
+      background-color: rgba(58, 56, 69, 1);
+color: white;
+    
+}
+
+
+
+
+.container3 h5 {
+    font-size: 18px;
+}
+
+
+/* container 3 close */
+
+/* layer 1 close */
+
+
+/* Footer */
+footer {
+    padding: 50px;
+    height: 40vh;
+    background-color: rgba(58, 56, 69, 1);
+    width: 100%;
+    display: flex;
+    color: white;
+}
+
+.layers1 {
+    width: 500px;
+    padding: 30px;
+    padding-left: 100px;
+}
+.layers1 button {
+    width: 150px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(58, 56, 69, 1);
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.layers2 {
+    padding-left: 50px;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.layers2 h3 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.layers2 p {
+    font-weight: lighter;
+}
+
+.copyrights {
+    border: 1px solid white;
+    background-color: rgba(58, 56, 69, 1);
+    color: rgb(187, 187, 187);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+}
+/* footer end */
+
+
+   

@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+
+    background-color: rgb(255, 255, 255);
+    display: flex;
+
+
+
+}
+
+.logo {
+
+    width: 200px;
+    padding-left: 130px;
+    padding-top: 5px;
+}
+
+.navbar {
+    margin-left: 400px;
+}
+
+
+.icons {
+    margin-left: 300px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* header end */
+
+/*  */
+.container {
+
+    text-align: center;
+}
+
+.container h1 {
+    text-align: center;
+
+}
+
+.container i {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #3A3845;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    padding-top: 40px;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+/*  */
+.layers {
+
+    margin: 0 7%;
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.layer1 {
+    padding-left: 350px;
+}
+
+.layer2 {
+    padding-left: 150px;
+}
+
+button {
+    width: 170px;
+
+}
+
+.layers h5 {
+    padding-top: 20px;
+}
+
+.btn1 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #3A3845;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn1:hover{
+    background-color:white ;
+    color:#3A3845;
+    border: 2px solid black;
+    }
+
+.btn2 {
+    border-radius: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn2:hover{
+background-color: #3A3845;
+    color: white;
+    border: none;
+}
+
+
+/* Footer */
+footer {
+    padding: 50px;
+    height: 40vh;
+    background-color: rgba(58, 56, 69, 1);
+    width: 100%;
+    display: flex;
+    color: white;
+    margin-top: 30px;
+}
+
+.layers1 {
+    width: 500px;
+    padding: 30px;
+    padding-left: 100px;
+}
+.layers1 button {
+    width: 150px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(58, 56, 69, 1);
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.layers2 {
+    padding-left: 50px;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.layers2 h3 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.layers2 p {
+    font-weight: lighter;
+}
+
+.copyrights {
+    border: 1px solid white;
+    background-color: rgba(58, 56, 69, 1);
+    color: rgb(187, 187, 187);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+}
+/* footer end */
